@@ -6,6 +6,7 @@ weight = float(weight)
 
 height_m = height / 100		# 將身高單位公分轉換為公尺
 bmi = weight / height_m ** 2	# 計算BMI的公式
+bmi = round(bmi,2)	# 取到BMI的前2位小數
 print('BMI =',bmi)
 
 # 顯示BMI是否為正常值
